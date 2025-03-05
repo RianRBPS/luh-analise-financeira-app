@@ -1,0 +1,49 @@
+{
+    "start": {
+      "question": "É para gasto fixo?",
+      "yes": "planejamento",
+      "no": "compromete_gasto_fixo"
+    },
+    "planejamento": {
+      "question": "Estava no meu planejamento financeiro?",
+      "yes": "entao_gaste",
+      "no": "planejar_para_mes_que_vem"
+    },
+    "planejar_para_mes_que_vem": {
+      "question": "Dá para planejar para o mês que vem com mais calma?",
+      "yes": "nao_vale_a_pena",
+      "no": "entao_gaste"
+    },
+    "compromete_gasto_fixo": {
+      "question": "Pode comprometer algum gasto fixo desse mês?",
+      "yes": "nao_vale_a_pena",
+      "no": "impacta_saude_mental"
+    },
+    "impacta_saude_mental": {
+      "question": "Vai impactar minha saúde mental de alguma forma?",
+      "yes": "entao_gaste",
+      "no": "foi_ideia_de_outro"
+    },
+    "foi_ideia_de_outro": {
+      "question": "Foi ideia de outro alguém?",
+      "yes": "gastou_recentemente_com_pessoa",
+      "no": "quer_gastar_no_fundo"
+    },
+    "gastou_recentemente_com_pessoa": {
+      "question": "Eu gastei com essa pessoa recentemente?",
+      "yes": "nao_vale_a_pena",
+      "no": "quer_gastar_no_fundo"
+    },
+    "quer_gastar_no_fundo": {
+      "question": "Lá no fundo, eu quero gastar com isso?",
+      "yes": "entao_gaste",
+      "no": "nao_vale_a_pena"
+    },
+    "entao_gaste": {
+      "result": "Então gaste!"
+    },
+    "nao_vale_a_pena": {
+      "result": "Então não vale a pena"
+    }
+  }
+  
